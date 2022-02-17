@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-17T09:34:07.199Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="fPSSQy9D5CBCvTvC3EA1" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-17T11:36:45.818Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="sT_EXsi5WdZOCiVj7uC_" version="16.5.6" type="github">
   <diagram id="7xSU1VsMxAa6HMegwc-T" name="Page-1">
-    <mxGraphModel dx="839" dy="476" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1004" dy="476" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -127,16 +127,16 @@
         <mxCell id="5cx-T460i-CIB5v_bMIT-20" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
           <mxGeometry x="720" y="230" width="90" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="5cx-T460i-CIB5v_bMIT-17" value="Supervisor CP VM1&lt;br&gt;172.28.252.101" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+        <mxCell id="5cx-T460i-CIB5v_bMIT-17" value="Supervisor CP VM1&lt;br&gt;101" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
           <mxGeometry x="730" y="280" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="5cx-T460i-CIB5v_bMIT-18" value="Supervisor CP VM2&lt;br&gt;172.28.252.102" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+        <mxCell id="5cx-T460i-CIB5v_bMIT-18" value="Supervisor CP VM2&lt;br&gt;.102" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
           <mxGeometry x="730" y="330" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="5cx-T460i-CIB5v_bMIT-19" value="Supervisor CP VM3&lt;br&gt;172.28.252.103" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+        <mxCell id="5cx-T460i-CIB5v_bMIT-19" value="Supervisor CP VM3&lt;br&gt;103" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
           <mxGeometry x="730" y="380" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="5cx-T460i-CIB5v_bMIT-21" value="Control Plane LB - 172.28.252.100" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="1">
+        <mxCell id="5cx-T460i-CIB5v_bMIT-21" value="Control Plane LB - .100" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="1">
           <mxGeometry x="735" y="240" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="5cx-T460i-CIB5v_bMIT-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=8;" edge="1" parent="1" source="5cx-T460i-CIB5v_bMIT-22" target="5cx-T460i-CIB5v_bMIT-17">
@@ -163,6 +163,15 @@
               <mxPoint x="700" y="400" />
               <mxPoint x="700" y="330" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5cx-T460i-CIB5v_bMIT-27" value="Logical Switch - Bridged to VLAN Network" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="390" y="320" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5cx-T460i-CIB5v_bMIT-28" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5cx-T460i-CIB5v_bMIT-27" target="5cx-T460i-CIB5v_bMIT-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="260" as="sourcePoint" />
+            <mxPoint x="520" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
